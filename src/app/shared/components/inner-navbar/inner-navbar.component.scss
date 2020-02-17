@@ -1,0 +1,37 @@
+@import '~src/scss/placeholders';
+@import '~src/scss/global';
+@import '~src/scss/colors';
+
+
+.navbar-custom-style {
+  padding: 5px 1rem;
+}
+
+.navbar-dark .navbar-toggler {
+  border-color: $white;
+}
+
+.brand-logo {
+  width: 130px;
+}
+
+
+.inner-navbar-div ul li a {
+  @extend .white, .c-pointer;
+}
+
+.profile-image {
+  width: 35px;
+}
+
+
+.dropdown-custom-style {
+  left: -100px !important;
+}
+
+
+.dropdown-toggle::after {
+  margin-left: 10px;
+  vertical-align: 0px;
+  color: white;
+}

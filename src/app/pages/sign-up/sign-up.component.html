@@ -1,0 +1,52 @@
+<div class="container-fluid signup-container">
+
+  <div class="sign-up-div bg-white position-relative">
+
+    <div class="profile-image-div">
+      <img class="profile-image" src="../../../assets/images/avatar.jpg" alt="">
+      <span class="d-block upload-icon c-pointer"><i class="material-icons">camera_alt</i></span>
+    </div>
+
+    <div class="d-flex justify-content-end">
+      <a class="p-3 c-pointer" routerLink="/login"><span><i class="material-icons grey">close</i></span></a>
+    </div>
+
+
+    <form autocomplete="off">
+      <div class="signup-form-div pr-5 pl-5 pt-3 pb-4">
+        <div class="form-group">
+          <label class="grey" for="username">Username</label>
+          <input type="text" class="form-control" id="username">
+        </div>
+
+        <div class="form-group">
+          <label class="grey" for="Email">Email</label>
+          <input type="text" class="form-control" id="Email">
+        </div>
+
+        <div class="form-group">
+          <label class="grey" for="Password">Password</label>
+          <input type="password" class="form-control" id="Password">
+        </div>
+
+        <div class="form-group">
+          <label class="grey" for="Confirmpassword">Confirm password</label>
+          <input type="password" class="form-control" id="Confirmpassword">
+        </div>
+      </div>
+
+      <div class="pr-5 pl-5 pb-4 pt-2 buttons-div">
+        <div class="mt-4 d-flex justify-content-center flex-row">
+          <button type="button" routerLink="/login" class="btn bg-white cancel-btn blue mr-3">Cancel</button>
+          <button routerLink="/project-list" type="button" class="btn signup-btn bg-blue white">Sign Up</button>
+        </div>
+      </div>
+
+    </form>
+
+  </div>
+
+  <p class="f13 text-center mt-2 mb-0 white opacity-6">Copyright &copy; 2016 Beans UI Goods LLC</p>
+  <p class="f13 text-center white opacity-6">All right reserved</p>
+
+</div>

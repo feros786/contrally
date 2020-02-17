@@ -1,0 +1,38 @@
+@import '~src/scss/placeholders';
+@import '~src/scss/global';
+@import '~src/scss/colors';
+@import '~src/scss/variables';
+
+.login-container {
+  min-height: 100vh;
+  @extend .bg-blue;
+  @extend .perfect-center;
+}
+
+
+.sign-in-div {
+  width: 380px;
+  min-height: 250px;
+  @extend .b-rad5;
+}
+
+.login-btn {
+  border: 1px solid $blue;
+  width: 150px;
+
+}
+
+.signup-btn {
+  width: 150px;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .sign-in-div {
+    width: 90% !important;
+  }
+
+  .login-btn, .signup-btn {
+    width: 45% !important;
+  }
+}

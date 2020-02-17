@@ -1,0 +1,77 @@
+@import '~src/scss/placeholders';
+@import '~src/scss/global';
+@import '~src/scss/colors';
+@import '~src/scss/variables';
+
+.signup-container {
+  min-height: 100vh;
+  @extend .bg-blue;
+  @extend .perfect-center;
+}
+
+.profile-image-div {
+  position: absolute;
+  top: -60px;
+  left:37%;
+  display: flex;
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.upload-icon {
+  position: relative;
+  top: -10px;
+  right: -50px;
+}
+
+.profile-image {
+  width: 110px;
+  border-radius: 50%;
+}
+
+
+.sign-up-div {
+  min-height: 500px;
+  width: 450px;
+  @extend .b-rad5;
+  margin-top: 5rem;
+}
+
+.buttons-div {
+  border-top: 1px solid lightgrey;
+}
+
+
+.cancel-btn {
+  border: 1px solid $blue;
+  width: 130px;
+}
+
+
+.signup-btn {
+  width: 130px;
+
+}
+
+
+@media only screen and (max-width: 576px) {
+
+  .sign-up-div {
+    width: 90% !important;
+  }
+
+    .signup-form-div {
+      padding: 15px !important;
+    }
+
+    .buttons-div {
+      padding: 15px !important;
+
+      div {
+        margin-top: 5px !important;
+      }
+    }
+
+}

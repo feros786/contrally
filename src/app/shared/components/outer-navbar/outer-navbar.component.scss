@@ -1,0 +1,38 @@
+@import '~src/scss/placeholders';
+@import '~src/scss/global';
+@import '~src/scss/colors';
+
+.navbar-custom-style {
+  padding: 0px 30px;
+  min-height: 15vh;
+}
+
+
+.sign-in-btn {
+  width: 130px;
+
+  &:hover {
+    @extend .bg-blue;
+  }
+}
+
+.sign-up-btn {
+  border: 1px solid black;
+  background: none;
+  width: 130px;
+  @extend .b-rad5;
+
+
+  &:hover {
+    @extend .bg-black;
+    @extend .white;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  .navbar-custom-style {
+    padding: 0px 15px;
+   }
+
+}

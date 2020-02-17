@@ -1,0 +1,35 @@
+@import '~src/scss/placeholders';
+@import '~src/scss/global';
+@import '~src/scss/colors';
+@import '~src/scss/variables';
+
+.project-list-header {
+  height: 110px;
+  border-top: 1px solid white;
+}
+
+.project-header-icon {
+  width: 60px;
+  height: 60px;
+}
+
+.header-title {
+  font-weight: 400;
+}
+
+.edit-icon {
+  width: 22px;
+}
+
+.add-icon {
+  width: 25px;
+}
+
+.project-list-container {
+  height: 500px;
+}
+
+.project-list-div {
+  background: #ECF5FE;
+  min-height: 100vh;
+}

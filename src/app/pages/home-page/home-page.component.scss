@@ -1,0 +1,22 @@
+@import '~src/scss/variables';
+
+.bg-color {
+  background-color: $blue;
+}
+
+.image-container {
+  min-height: 85vh;
+  overflow-y: hidden;
+}
+
+.landing-image {
+  width: 60%;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .landing-image {
+    width: 90%;
+  }
+
+}

@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+@import "variables";
+@import "placeholders";
+@import "mixin";
+
+
+button {
+  &:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+
+  &:hover {
+    box-shadow: 1px 4px 6px #a09d9db5;
+  }
+}
+
+input {
+  &:focus {
+    outline: none;
+    box-shadow: none !important;
+  }
+}

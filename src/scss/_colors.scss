@@ -1,0 +1,39 @@
+@import "./variables";
+
+
+.white {
+  color: $white;
+}
+
+.black {
+  color: $black;
+}
+
+.grey {
+  color: $grey;
+}
+
+.orange {
+  color: $orange;
+}
+
+.blue {
+  color: $blue !important;
+}
+
+.bg-black {
+  background-color: $black;
+}
+
+.bg-white {
+  background-color: $white;
+}
+
+.bg-orange {
+  background-color: $orange;
+}
+
+.bg-blue {
+  background-color: $blue;
+}
+
